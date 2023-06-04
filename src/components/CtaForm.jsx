@@ -13,7 +13,7 @@ export default function CtaForm() {
   const submitHandler = async (e) => {
     e.preventDefault();
 
-    await axios.post(`https://sb2build-api.onrender.com/api/email`, {
+    await axios.post(`https://13.228.225.19/api/email`, {
       firstName,
       lastName,
       email,
